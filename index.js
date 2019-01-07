@@ -35,7 +35,7 @@ bot.on('message', msg => {
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("https://alexpgm.000webhostapp.com/")
-        console.log("Une personne a demandé pour aller sur ton site.")
+        console.log("Une personne à demandé pour aller sur ton site.")
     }
 
 });
